@@ -44,6 +44,8 @@ body {
 
 }
 
+
+
 .card {
   flex-shrink: 1;
   box-sizing: content-box;
@@ -51,11 +53,19 @@ body {
   /* padding: 40px 40px 40px 40px; */
   margin: 20px 20px 20px 20px;
   border-radius: 11px;
+  min-height: 30vh;
 }
 
 img {
+  display: flex;
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
+  max-width: 30vw !important;
+  /* min-height: 25vh !important; */
+  max-height: 25vh !important;
+
+  min-width: 100%;
+
 }
 
 .underBelly {
